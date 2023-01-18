@@ -1,0 +1,19 @@
+﻿<Window x:Class="ThrowTheStone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThrowTheStone"
+        mc:Ignorable="d"
+        Title="Throw the stone" Height="450" Width="800">
+    <Grid Background="DarkBlue">
+        <TextBox HorizontalAlignment="Left" Margin="97,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" FontSize="20" FontFamily="Segoe UI Black"/>
+        <TextBox HorizontalAlignment="Left" Margin="97,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" FontSize="20" FontFamily="Segoe UI Black"/>
+        <CheckBox Content="Air resistance" HorizontalAlignment="Left" Margin="79,202,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Velocity:" HorizontalAlignment="Left" Margin="41,81,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Angle:" HorizontalAlignment="Left" Margin="41,136,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <StackPanel Background="White" Margin="283,75,10,34"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="450,19,0,0" VerticalAlignment="Top" Width="172" Height="42"/>
+
+    </Grid>
+</Window>
