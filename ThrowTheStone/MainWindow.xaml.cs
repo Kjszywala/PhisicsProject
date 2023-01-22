@@ -59,6 +59,11 @@ namespace ThrowTheStone
                 s = dialog.SelectedPath;
                 s += $"/FizykaProjektKamilSzywala.txt";
             }
+            else
+            {
+                Environment.Exit(0);
+            }
+
             Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
             if (File.Exists(s))
             {

@@ -9,7 +9,8 @@
         ResizeMode="NoResize">
     <Grid Background="DarkBlue">
         <Label Content="Trajectory of the planet's motion" Foreground="White" Margin="0,20,0,0" HorizontalAlignment="Center"/>
-        <Label Content="Save it to the file.txt" Foreground="White" Margin="0,40,0,0" HorizontalAlignment="Center"/>
+        <Label Content="Save it to the folder," Foreground="White" Margin="0,40,0,0" HorizontalAlignment="Center"/>
+        <Label Content="do not choose a file." Foreground="White" Margin="0,60,0,0" HorizontalAlignment="Center"/>
         <Button Content="Start" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20" Width="150" Height="40" Click="Button_Click"/>
     </Grid>
 </Window>
